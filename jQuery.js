@@ -1,7 +1,16 @@
+
+
+
+
 $(document).ready(function(){
-  $("p").click(function(){
-    $(p).hide();
-  });
+$("h1").click(function(){
+$("p").toggle();
+});
+
+$("#vis").click(function(){
+$(".invis").hide();
+$("img").show();
+});
 });
 
 
